@@ -1,0 +1,100 @@
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.header h1{
+    text-align: center;
+    color: #000;
+    font-size: 35px;
+}
+
+.header .title span{
+    color: green;
+}
+
+
+.main{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__info{
+    max-width: 50%;
+    width: 100%;
+}
+
+.main__title{
+    font-size: 25px;
+}
+.main img{
+    max-width: 50%;
+    width: 100%;
+
+}
+.main__info ul{
+    padding-left: 17px;
+    font-size: 18px;
+}
+.main__link{
+    font-size: 17px;
+
+}
+
+.main__link:hover{
+    text-decoration: none;
+}
+
+
+
+.form{
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.form input{
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #d7d7d7;
+}
+button{
+    background: green;
+}
+.btn{
+
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 23px;    
+        cursor: pointer;
+
+        transition:  background-color  .2s linear 
+}
+
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+
+   
+}
